@@ -5,6 +5,10 @@ import { UploadFileComponent } from './upload-file/upload-file.component';
 import { UploadHistoryComponent } from './upload-history/upload-history.component';
 import { UploadLayoutComponent } from './upload-layout/upload-layout.component';
 import { Routes, RouterModule } from '@angular/router';
+import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule} from '@angular/material/card'
+
+import{ FlexLayoutModule} from '@angular/flex-layout';
 
 const routes: Routes = [
   {
@@ -17,6 +21,9 @@ const routes: Routes = [
   declarations: [UploadHeaderComponent, UploadFileComponent, UploadHistoryComponent, UploadLayoutComponent],
   imports: [
     CommonModule,
+    FlexLayoutModule,
+    MatIconModule,
+    MatCardModule,
     RouterModule.forChild(routes)
   ]
 })
