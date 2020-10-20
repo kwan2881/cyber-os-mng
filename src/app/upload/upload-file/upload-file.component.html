@@ -1,1 +1,33 @@
-<p>upload-file works!</p>
+<!-- <p>upload-file works!</p>
+
+<span class="material-icons">cloud_upload</span>
+
+<section>
+    <div class="example-button-row">
+      <button mat-raised-button color="primary">Uoload</button>
+      <button mat-raised-button color="warn">Cancel</button>
+    </div>
+  </section> -->
+  <div fxLayout="row" fxLayoutAlign="start center">
+      <!-- <mat-card  class="upload-content" fxFlex="70" fxLayoutAlign="center center">
+        <mat-card-content>
+            <mat-icon>cloud_upload</mat-icon>
+        </mat-card-content>
+      </mat-card> -->
+      <mat-card fxLayout="column"  class="upload-content" fxFlex="70" fxLayoutAlign="center center">
+        <mat-icon>cloud_upload</mat-icon>
+        <p>Upload File</p>
+      </mat-card>
+       <mat-card fxLayout="column" class="detail-content"  fxFlex="30" fxLayoutAlign="start stretch" >
+        <p><b>Detail Time Sheet</b></p>
+        <p>Spint No:</p>
+        <p>Start Date:</p>
+        <p>End Date:</p>
+
+        <div class="button-detail">
+            <button mat-raised-button color="primary">Uoload</button>
+            <button mat-raised-button color="warn">Cancel</button>
+          </div>
+        </mat-card>
+        
+  </div>
