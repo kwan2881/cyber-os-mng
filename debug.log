@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 [1020/112744.345:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
 [1020/112744.347:ERROR:crash_report_database_win.cc(476)] failed to read records
+=======
+[1020/111924.018:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/111924.019:ERROR:crash_report_database_win.cc(476)] failed to read records
+>>>>>>> 69b9b36e1480010616fcc7beec046babd0b05aa2
+[1020/113644.935:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/113644.936:ERROR:crash_report_database_win.cc(476)] failed to read records

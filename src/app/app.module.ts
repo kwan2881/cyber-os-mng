@@ -11,7 +11,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import {MatTableModule} from '@angular/material/table';
+import{ FlexLayoutModule} from '@angular/flex-layout';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,13 +25,17 @@ import {MatTableModule} from '@angular/material/table';
     AppRoutingModule,
     BrowserAnimationsModule,
     LayoutModule,
+    FlexLayoutModule,
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatTableModule  
+  
     
+  ],
+  exports: [
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
