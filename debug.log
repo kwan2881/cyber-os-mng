@@ -1,0 +1,2 @@
+[1020/112744.345:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/112744.347:ERROR:crash_report_database_win.cc(476)] failed to read records
