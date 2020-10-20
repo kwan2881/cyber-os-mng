@@ -7,3 +7,57 @@
 >>>>>>> 69b9b36e1480010616fcc7beec046babd0b05aa2
 [1020/113644.935:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
 [1020/113644.936:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/121505.145:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/121505.146:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/122317.489:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/122317.490:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/123658.221:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/123658.222:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/124421.435:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/124421.436:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/125421.436:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/125421.436:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/125421.436:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1020/125421.436:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/125421.436:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/125421.437:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/125421.437:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/125921.436:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/125921.436:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/131421.440:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/131421.442:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/132921.445:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/132921.446:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/134421.449:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/134421.451:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/135921.454:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/135921.455:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/141421.457:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/141421.457:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/142921.457:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/142921.457:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/144421.459:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/144421.459:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/145921.460:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/145921.460:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/151421.461:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/151421.461:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/152921.463:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/152921.463:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/153527.236:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/153527.238:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/154527.246:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/154527.248:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/154527.248:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1020/154527.249:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/154527.249:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/154527.250:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/154527.250:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/155027.240:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/155027.241:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/160527.252:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/160527.255:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/162027.270:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/162027.271:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/163527.273:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/163527.281:ERROR:crash_report_database_win.cc(476)] failed to read records

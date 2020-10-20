@@ -9,6 +9,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule} from '@angular/material/card'
 
 import{ FlexLayoutModule} from '@angular/flex-layout';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { HistoryComponent } from './history/history.component';
 
 const routes: Routes = [
   {
@@ -18,13 +22,16 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [UploadHeaderComponent, UploadFileComponent, UploadHistoryComponent, UploadLayoutComponent],
+  declarations: [UploadHeaderComponent, UploadFileComponent, UploadHistoryComponent, UploadLayoutComponent, HistoryComponent],
   imports: [
     CommonModule,
     FlexLayoutModule,
     MatIconModule,
     MatCardModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ]
 })
 export class UploadModule { }

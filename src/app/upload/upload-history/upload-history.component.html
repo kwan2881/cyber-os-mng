@@ -1,5 +1,5 @@
 <p>upload-history works!</p>
-<div fxflexlayout="row" fxlayoutAlign="space-around center">
+<div fxlayoutAlign="space-around center">
     <table class="table">
         <ng-container>
             <th > Sprint No. </th>
@@ -7,7 +7,13 @@
             <th > End date </th>
             <th > File name </th>
             <th > Status </th>
+        </ng-container>
+        <ng-container  >
             <th > Delete </th>
+            <tr displaycolumn>
+                <mat-icon  layout-align="End End">delete</mat-icon>
+            </tr>
+   
         </ng-container>
     </table>
 </div>
