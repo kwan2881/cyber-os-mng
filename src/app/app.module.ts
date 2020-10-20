@@ -11,7 +11,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import {FlexLayoutModule } from '@angular/flex-layout';
+
+import{ FlexLayoutModule} from '@angular/flex-layout';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import {FlexLayoutModule } from '@angular/flex-layout';
     AppRoutingModule,
     BrowserAnimationsModule,
     LayoutModule,
+    FlexLayoutModule,
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
@@ -30,6 +32,9 @@ import {FlexLayoutModule } from '@angular/flex-layout';
     MatListModule,
     FlexLayoutModule,
     
+  ],
+  exports: [
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

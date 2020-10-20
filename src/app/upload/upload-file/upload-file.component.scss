@@ -1,13 +1,22 @@
-.col-70{
-    width: 70%;
-    background-color: red;
+.upload-content{
+    width: fit-content;
+    height: 375px;
+    mat-icon{
+        color: silver;
+    font-size: 200px;
+    width: fit-content;
+    height: 375px;
+    }
 }
-.col-30{
-    width: 30%;
-    background-color: yellow;
-}
-.row{
-    width: 100%;
-    background-color: aqua;
 
+.detail-content{
+    width: 400px;
+    height: 375px; 
+    
 }
+.button-detail{
+    bottom: 10pt;
+    right: 10pt; 
+    
+}
+
