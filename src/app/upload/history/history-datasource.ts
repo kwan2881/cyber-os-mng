@@ -6,32 +6,35 @@ import { Observable, of as observableOf, merge } from 'rxjs';
 
 // TODO: Replace this with your own data model type
 export interface HistoryItem {
-  name: string;
-  id: number;
+  filename: string;
+  spnum: number;
+  stdate: string;
+  enddate: string;
+  
 }
 
 // TODO: replace this with real data from your application
 const EXAMPLE_DATA: HistoryItem[] = [
-  {id: 1, name: 'Hydrogen'},
-  {id: 2, name: 'Helium'},
-  {id: 3, name: 'Lithium'},
-  {id: 4, name: 'Beryllium'},
-  {id: 5, name: 'Boron'},
-  {id: 6, name: 'Carbon'},
-  {id: 7, name: 'Nitrogen'},
-  {id: 8, name: 'Oxygen'},
-  {id: 9, name: 'Fluorine'},
-  {id: 10, name: 'Neon'},
-  {id: 11, name: 'Sodium'},
-  {id: 12, name: 'Magnesium'},
-  {id: 13, name: 'Aluminum'},
-  {id: 14, name: 'Silicon'},
-  {id: 15, name: 'Phosphorus'},
-  {id: 16, name: 'Sulfur'},
-  {id: 17, name: 'Chlorine'},
-  {id: 18, name: 'Argon'},
-  {id: 19, name: 'Potassium'},
-  {id: 20, name: 'Calcium'},
+  {spnum: 1, filename: 'Hydrogen', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 2, filename: 'Helium', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 3, filename: 'Lithium', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 4, filename: 'Beryllium', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 5, filename: 'Boron', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 6, filename: 'Carbon', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 7, filename: 'Nitrogen', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 8, filename: 'Oxygen', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 9, filename: 'Fluorine', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 10, filename: 'Neon', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 11, filename: 'Sodium', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 12, filename: 'Magnesium', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 13, filename: 'Aluminum', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 14, filename: 'Silicon', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 15, filename: 'Phosphorus', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 16, filename: 'Sulfur', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 17, filename: 'Chlorine', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 18, filename: 'Argon', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 19, filename: 'Potassium', stdate: '1/1/63', enddate: '10/1/63'},
+  {spnum: 20, filename: 'Calcium', stdate: '1/1/63', enddate: '10/1/63'},
 ];
 
 /**
@@ -94,8 +97,8 @@ export class HistoryDataSource extends DataSource<HistoryItem> {
     return data.sort((a, b) => {
       const isAsc = this.sort.direction === 'asc';
       switch (this.sort.active) {
-        case 'name': return compare(a.name, b.name, isAsc);
-        case 'id': return compare(+a.id, +b.id, isAsc);
+        case 'filename': return compare(a.filename, b.filename, isAsc);
+        case 'spnum': return compare(+a.spnum, +b.spnum, isAsc);
         default: return 0;
       }
     });

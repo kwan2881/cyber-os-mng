@@ -16,7 +16,7 @@ export class HistoryComponent implements AfterViewInit, OnInit {
   dataSource: HistoryDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['id', 'name'];
+  displayedColumns = ['spnum','stdate', 'enddate', 'filename', 'icon'];
 
   ngOnInit() {
     this.dataSource = new HistoryDataSource();
