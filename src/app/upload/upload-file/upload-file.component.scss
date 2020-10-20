@@ -3,9 +3,9 @@
     height: 375px;
     mat-icon{
         color: silver;
-    font-size: 200px;
+    font-size: 100px;
     width: fit-content;
-    height: 375px;
+    height: fit-content;
     }
 }
 
@@ -15,8 +15,8 @@
     
 }
 .button-detail{
-    bottom: 10pt;
-    right: 10pt; 
+    margin: 5pt;
+    margin-right: 5pt; 
     
 }
 

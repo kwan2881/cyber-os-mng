@@ -2,24 +2,24 @@ import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTable } from '@angular/material/table';
-import { HistoryDataSource, HistoryItem } from './history-datasource';
+import { UploadHistorysDataSource, UploadHistorysItem } from './upload-historys-datasource';
 
 @Component({
-  selector: 'app-history',
-  templateUrl: './history.component.html',
-  styleUrls: ['./history.component.scss']
+  selector: 'app-upload-historys',
+  templateUrl: './upload-historys.component.html',
+  styleUrls: ['./upload-historys.component.scss']
 })
-export class HistoryComponent implements AfterViewInit, OnInit {
+export class UploadHistorysComponent implements AfterViewInit, OnInit {
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
-  @ViewChild(MatTable) table: MatTable<HistoryItem>;
-  dataSource: HistoryDataSource;
+  @ViewChild(MatTable) table: MatTable<UploadHistorysItem>;
+  dataSource: UploadHistorysDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['spnum','stdate', 'enddate', 'filename', ];
+  displayedColumns = ['sprint', 'start','end','filename','status'];
 
   ngOnInit() {
-    this.dataSource = new HistoryDataSource();
+    this.dataSource = new UploadHistorysDataSource();
   }
 
   ngAfterViewInit() {

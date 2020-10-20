@@ -81,3 +81,5 @@
 [1020/185027.365:ERROR:crash_report_database_win.cc(476)] failed to read records
 [1020/190527.376:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
 [1020/190527.377:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/192027.381:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/192027.382:ERROR:crash_report_database_win.cc(476)] failed to read records

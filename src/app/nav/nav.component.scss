@@ -1,9 +1,31 @@
+// .sidenav-container {
+//   height: 100%;
+// }
+
+// .sidenav {
+//   width: 200px;
+// }
+
+// .sidenav .mat-toolbar {
+//   background: inherit;
+// }
+
+// .mat-toolbar.mat-primary {
+//   position: sticky;
+//   top: 0;
+//   z-index: 1;
+// }
+// .example-card {
+//   max-width: 50px;
+// }
+
+
 .sidenav-container {
   height: 100%;
 }
 
 .sidenav {
-  width: 200px;
+  width: 250px;
 }
 
 .sidenav .mat-toolbar {
@@ -15,3 +37,14 @@
   top: 0;
   z-index: 1;
 }
+
+.profile-toolbar-avtar{
+  padding-top: 80px;
+  padding-bottom: 60px;
+  img{
+    width: 130px;
+    height: 130px;
+    border-radius: 90%;
+  }
+}
+

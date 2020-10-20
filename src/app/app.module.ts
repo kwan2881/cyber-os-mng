@@ -31,7 +31,7 @@ import{ FlexLayoutModule} from '@angular/flex-layout';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-  
+    FlexLayoutModule,
     
   ],
   exports: [
