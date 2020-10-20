@@ -6,17 +6,21 @@ import { Observable, of as observableOf, merge } from 'rxjs';
 
 // TODO: Replace this with your own data model type
 export interface UploadHistorysItem {
-  start: string;
   sprint: number;
+  start: string;
+  end: string;
+  filename: string;
+  status: string;
+  
 }
 
 // TODO: replace this with real data from your application
 const EXAMPLE_DATA: UploadHistorysItem[] = [
-  {sprint: 1, start: 'Hydrogen'},
-  {sprint: 2, start: 'Helium'},
-  {sprint: 3, start: 'Lithium'},
-  {sprint: 4, start: 'Beryllium'},
-  {sprint: 5, start: 'Boron'},
+  {sprint: 1, start: '11/10/63',end:'24/10/63',filename:'Task Detail-License-Sprint1-คนึง.xlsx',status:'delete_forever'},
+  {sprint: 2, start: '25/10/63',end:'08/11/63',filename:'Task Detail-License-Sprint2-คนึง.xlsx',status:'delete_forever'},
+  {sprint: 3, start: '09/11/63',end:'22/11/63',filename:'Task Detail-License-Sprint3-คนึง.xlsx',status:'delete_forever'},
+  {sprint: 4, start: '23/11/63',end:'11/12/63',filename:'Task Detail-License-Sprint4-คนึง.xlsx',status:'delete_forever'},
+  {sprint: 5, start: '12/12/63',end:'26/12/63',filename:'Task Detail-License-Sprint5-คนึง.xlsx',status:'delete_forever'},
 ];
 
 /**

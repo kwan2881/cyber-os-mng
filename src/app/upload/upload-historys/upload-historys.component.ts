@@ -16,7 +16,7 @@ export class UploadHistorysComponent implements AfterViewInit, OnInit {
   dataSource: UploadHistorysDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['sprint', 'start',];
+  displayedColumns = ['sprint', 'start','end','filename','status'];
 
   ngOnInit() {
     this.dataSource = new UploadHistorysDataSource();
