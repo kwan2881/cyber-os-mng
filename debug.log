@@ -69,3 +69,15 @@
 [1020/172027.298:ERROR:crash_report_database_win.cc(476)] failed to read records
 [1020/173527.309:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
 [1020/173527.312:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/175027.323:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/175027.325:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/180527.331:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/180527.332:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/182027.356:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/182027.359:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/183527.362:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/183527.363:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/185027.365:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/185027.365:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1020/190527.376:ERROR:file_io.cc(90)] ReadExactly: expected 392, observed 0
+[1020/190527.377:ERROR:crash_report_database_win.cc(476)] failed to read records
